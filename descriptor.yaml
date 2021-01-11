@@ -1,0 +1,13 @@
+code: hippopotomonstrosesquippedaliophobiabundle-bundle
+description: This is the HippopotomonstrosesquippedaliophobiaBundle bundle
+
+components:
+  plugins:
+    - plugins/hippopotomonstrosesquippedaliophobiabundle-plugin.yaml
+
+  widgets:
+    - ui/widgets/conference/tableWidget/conference-table-widget-descriptor.yaml
+    - ui/widgets/conference/detailsWidget/conference-details-widget-descriptor.yaml
+    - ui/widgets/conference/formWidget/conference-form-widget-descriptor.yaml
+# entando-needle-descriptor-add-widgets - Entando blueprint will add widget bundle files here
+
